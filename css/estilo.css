@@ -1,0 +1,583 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,body {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: sans-serif;
+  color: #303336;
+  /*box-sizing: border-box;*/
+  scroll-behavior: smooth;
+}
+
+.logo{
+  font-family: 'Corinthia', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 0.7em;
+  text-align: center;
+  text-transform: lowercase;
+  color: white;
+}
+
+header .logo{
+   margin-left: -50px;
+   font-size: 1em;
+}
+
+
+
+/* sección header con el menu de navegación de la web */
+
+.imgFondo{
+  position: relative;
+  background-image: url(../img/imgFondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+.imgFondo  h1{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 5em;
+  color: #fff;
+}
+
+.imgFondo  p{
+  font-size: 2em;
+  font-weight: 300;
+  color: #ffff;
+  margin-top: 100px;
+  text-align: center;
+  margin: 120px;
+}
+
+.abrir, .cerrar{
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+header{
+  box-sizing:border-box;
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+header{
+  background: black;
+  padding: 10px 100px;
+ 
+}
+
+header .logo{
+  color: white;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+}
+
+header nav li{
+  list-style: none;
+  margin-left: 25px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+/*sección estilizamos la descripción de los top restaurantes*/
+
+.tituloTopRestaurantes h2, p{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40px;
+    bottom: 55px;
+    font-size:2em;
+    /*flex-shrink: 1;*/
+
+}
+
+.tituloTopRestaurantes h2{
+    font-size:2em;
+}
+
+
+.seccion-restaurantes h2 {
+   margin-top: 20px;
+   font-size: 3em;
+   font-weight: 700;
+   line-height: 1;
+}
+
+.seccion-restaurantes p{
+   margin-top: 20px;
+   font-size: 1em;
+   color: #7B8591;
+}
+
+
+.seccion-restaurantes .general{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.seccion-restaurantes .contenido-izquierda{
+    position: relative;
+    width: 850px;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.seccion-restaurantes .contenido-izquierda img{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.seccion-restaurantes .contenido-derecha{
+    position: relative;
+    width: calc(100% - 450px);
+    height: 100%;
+    padding-left: 45px;
+}
+
+.seccion-restaurantes{
+    position: relative;
+    padding: 8px 25px;
+    border-radius: 15px;
+    background-color: #FAFAFA; /*#FAFAFA*/
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 20px ;
+    top: 50px;
+
+}
+
+.seccion-restaurantes .imgReducidas{
+    position: absolute;
+    display: flex;
+    bottom: -120px;
+    height: 105px;
+}
+
+.seccion-restaurantes .imgReducidas img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.seccion-restaurantes .imgReducidas img:hover{
+    opacity:.70;
+}
+
+.seccion-restaurantes .imgReducidas img:nth-child(2){
+   margin: 0 10px;
+}
+
+/* estilizamos la sección top Brunch */
+
+.cuadro{
+  width: 20%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  border: 7px solid #fff;
+  border-bottom: 60px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+
+.topBrunch{
+  text-align:center;
+  margin-top:80px;
+}
+
+.topBrunch h2, .topBrunch p{
+    font-weight:500;
+    color:black;
+}
+
+/* diseño de cada cuadro con su img y texto */
+
+/* posicion relativa de la imagenes con respecto al navegador */
+.imgcuadro{
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+
+/* posicion absoluta de la imagenes con respecto al cuadro que le rodea */
+.imgcuadro img{
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.texto h3{
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 400;
+  color: #111;
+}
+
+
+.texto a{
+  font-size: 1em;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+/* estilizacion de la seccón de la newsletter */
+
+.newsletter{
+  padding: 75px 50px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  margin-top: 20px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+
+}
+
+.textoNews h4{
+  color: #111;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+
+.formulario .input{
+  width: 100%;
+  padding: 10px;
+  color: #111;
+  font-size:1em;
+  font-weight: 300;
+ 
+}
+
+input[type="submit"]{
+  font-size: 1em;
+  color: grey;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  max-width: 200px;
+  font-weight: 200;
+  cursor: pointer;
+
+}
+
+/* estilización del footer */
+
+footer{
+  padding: 8px 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color:black;
+}
+
+footer p{
+  color:white;
+}
+
+footer a{
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+
+/* Muestra este estilo cuando el ancho de la pantalla es inferior a 900px */
+@media (max-width:900px){
+
+header .logo{
+   margin-left: 0px;
+   font-size: 2em;
+}
+
+header{
+    padding: 10px 20px;
+}
+
+.abrir{
+    display: block;
+    width: 60px;
+}
+
+ 
+.abrir span{
+    display: block;
+    border-top: 3px solid white;
+
+}
+
+.abrir span:not(:first-child){
+    margin-top: 3px;
+}
+
+.cerrar{
+    display: block;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 2em;
+    position: absolute; 
+    top: 20px;
+    right: 20px;
+}
+
+nav{ 
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    margin-top: 0;
+    padding: 20px;
+    background-color: black;
+    width: calc(100% - 40px);
+    height: calc(100vh - 40px);
+    transition: top 0.7s;
+}
+
+.desplegado{
+    top: 0;
+}
+
+nav ul{
+    display: block; 
+}
+
+nav li:not(:last-child)::after{
+    display: none;
+}
+
+nav li{
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    position: static;
+}
+
+nav li:not(:first-child){
+    margin-top: 20px;
+}
+
+nav a{
+    color: white;
+}
+
+section{
+    padding: 20px;
+}
+
+.imgFondo .cuadro h1{
+    font-size: 4em;
+    color: white;
+}
+
+.imgFondo p{
+    font-size: 2.5em;
+    color: white;
+}
+
+.topBrunch{
+    margin-top: 100px;
+}
+
+.topBrunch .cuadro{
+    margin-top: 20px;
+}
+
+.topBrunch .cuadro{
+    margin: 10px;
+}
+
+.texto{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 1.8em;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.cuadro{
+
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.imgcuadro{
+    height: 20vh;
+}
+
+.seccion-restaurantes{
+    display: flex;
+    width: 810px; 
+    justify-content: center;
+    align-items: start;
+    align-content: center;
+    height: auto;
+    
+}
+
+.seccion-restaurantes section{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 80px 20px;
+}
+
+.seccion-restaurantes .general{
+    flex-direction: column;
+}
+
+.seccion-restaurantes .contenido-izquierda{
+    width: 100%;
+    height: 600px;
+}
+
+.seccion-restaurantes .contenido-derecha{
+    width: 100%;
+    height: auto;
+    padding: 175px 0 0;
+}
+
+.seccion-restaurantes .imgReducidas{
+    position: absolute;
+    display: flex;
+    top: 0;
+    margin-top: 35px;
+    height: 105px;
+}
+
+.seccion-restaurantes .general{
+    width: 85%;
+}
+
+}
+
+/* Muestra este estilo cuando el ancho de la pantalla es inferior a 400px */
+
+@media (max-width: 400px) {
+
+
+
+.imgFondo  h1{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+}
+
+.imgFondo  p{
+  font-size: 1em;
+  font-weight: 200;
+  color: #ffff;
+  margin-top: 100px;
+  text-align: center;
+  margin: 120px;
+}
+
+.cuadro{
+    width: 80%;
+}
+
+.imgcuadro{
+    height: 30vh;
+}
+
+.topBrunch{
+    margin-top: -110px;
+}
+
+.seccion-restaurantes{
+    width: 310px;
+    margin: 120px 20px;
+}
+
+.seccion-restaurantes .general{
+    padding: 0px;
+}
+
+.seccion-restaurantes .contenido-derecha{
+    width: 100%;
+    height: auto;
+    padding: 115px 0 0;
+}
+
+.seccion-restaurantes .imgReducidas{
+    margin-top: 20px;
+}
+
+.seccion-restaurantes .imgReducidas img{
+    width: 60px;
+    height: 60px;
+}
+
+.seccion-restaurantes .contenido-izquierda{
+    height: 310px;
+}
+
+}
+
+
+
+

@@ -1,0 +1,16 @@
+Este documento describe el trabajo realizado para el  proyecto final del modúlo del Diseño Web con HTML5, CSS3 y Javascript. Mi proyecto consiste en el desarrollo de una página web que es un blog, con el objetivo de dar recomendaciónes sobre sitios donde puedas comer o hacer brunch en Madrid.
+
+En el código html tenemos el header que contine la cabecera  y dentro de la cabecera está el menú de navegación y el logo.
+El menú de navegación está dividido en 4 secciones: home, top restaurantes, top brunch y newsletter.
+
+En la home se encuentra el título principal de la web y su parráfo con su respectiva imagen.
+
+En el html encontramos el contenido sobre la página web por un lado tenemos la sección Top Restaurantes  que está compuesta por 4 secciones con sus respectivos divs , titulos secundarios y párrafos, que tiene como objetivo dar información a los usuarios sobre los top restaurantes de Madrid y por otro lado, se encuentra la sección Top Brunch compuesta por divs, que llevan por dentro títulos secundarios, párrafos e imagenes.
+
+En la parte inferior de la página web se encuentra  el pie de página que contiene  la sección Newsletter y el copyright. La sección de la Newslleter está compuesta por un formulario que permite al usuario suscribirse.
+
+La página web es totalmente responsive, es decir, se puede ver tanto en desktop como en dispositivos móviles.
+
+
+
+

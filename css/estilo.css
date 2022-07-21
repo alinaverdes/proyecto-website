@@ -10,29 +10,67 @@ html,body {
 body{
   font-family: sans-serif;
   color: #303336;
-  /*box-sizing: border-box;*/
-  scroll-behavior: smooth;
 }
 
-.logo{
+/* aqui empezamos a estilizar el header que contiene el menu de navegación de la web */
+
+.abrir, .cerrar{
+  -webkit-appearance: none;
+  appearance: none;
+  display: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+header{
+  box-sizing:border-box;
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 100px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  background-color: black;
+}
+
+
+
+header .logo{
   font-family: 'Corinthia', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 1em;
+  font-weight: 300;
+  font-size: 2em;
   line-height: 0.7em;
   text-align: center;
   text-transform: lowercase;
   color: white;
+  margin-left: -50px;
+  text-decoration: none;
 }
 
-header .logo{
-   margin-left: -50px;
-   font-size: 1em;
+nav ul{
+  list-style:none;
+  display:flex;
+}
+
+header nav li{
+  list-style: none;
+  margin-left: 25px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
 }
 
 
-
-/* sección header con el menu de navegación de la web */
+/*los siguientes 3 bloques de código estiliza la sección home */
 
 .imgFondo{
   position: relative;
@@ -64,73 +102,23 @@ header .logo{
   margin: 120px;
 }
 
-.abrir, .cerrar{
-  -webkit-appearance: none;
-  appearance: none;
-  display: none;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-header{
-  box-sizing:border-box;
-  position:fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 40px 100px;
-  z-index: 999;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: 0.5s;
-}
-
-header{
-  background: black;
-  padding: 10px 100px;
- 
-}
-
-header .logo{
-  color: white;
-  font-weight: 700;
-  font-size: 2em;
-  text-decoration: none;
-}
-
-nav ul{
-  list-style:none;
-  display:flex;
-}
-
-header nav li{
-  list-style: none;
-  margin-left: 25px;
-}
-
-nav li a{
-  text-decoration: none;
-  color: #fff;
-  font-weight: 300;
-}
-
 /*sección estilizamos la descripción de los top restaurantes*/
 
-.tituloTopRestaurantes h2, p{
+
+
+.titulos h2, h3{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 40px;
-    bottom: 55px;
-    font-size:2em;
+    text-align: center;
+    top: 20px;
+    font-size:1em;
     /*flex-shrink: 1;*/
 
 }
 
-.tituloTopRestaurantes h2{
+.titulos h2{
     font-size:2em;
 }
 
@@ -224,7 +212,7 @@ nav li a{
   display: inline-block;
   justify-content: center;
   align-items: center;
-  margin: 25px;
+  margin: 10px;
   border: 7px solid #fff;
   border-bottom: 60px solid #fff;
   border-radius: 10px;
@@ -247,7 +235,7 @@ nav li a{
 .imgcuadro{
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 20vh;
 }
 
 /* posicion absoluta de la imagenes con respecto al cuadro que le rodea */
@@ -275,7 +263,7 @@ nav li a{
   text-decoration: none;
 }
 
-/* estilizacion de la seccón de la newsletter */
+/* el siguiente bloque de código estiliza la sección de la newsletter */
 
 .newsletter{
   padding: 75px 50px;
@@ -450,7 +438,7 @@ section{
     text-align: center;
 }
 
-.titulo{
+.titulos{
     font-size: 1.8em;
     line-height: 1.5em;
     margin-bottom: 15px;
@@ -533,7 +521,7 @@ section{
   color: #ffff;
   margin-top: 100px;
   text-align: center;
-  margin: 120px;
+  margin: 50px;
 }
 
 .cuadro{
@@ -545,7 +533,17 @@ section{
 }
 
 .topBrunch{
-    margin-top: -110px;
+    margin-top:20px;
+
+}
+
+.titulos h2{
+    font-size:1.5em;
+}
+
+.titulos h3{
+    font-size:0.8em;
+    font-weight:100;
 }
 
 .seccion-restaurantes{

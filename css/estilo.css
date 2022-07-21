@@ -77,6 +77,7 @@ nav li a{
   background-image: url(../img/imgFondo.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -91,6 +92,8 @@ nav li a{
   text-align: center;
   font-size: 5em;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 .imgFondo  p{
@@ -106,14 +109,25 @@ nav li a{
 
 
 
-.titulos h2, h3{
+.textosRestaurante h2, .textosRestaurante p{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 100px;
+    font-size:2em;
+    
+}
+
+.textosBrunch h2, .textosBrunch p{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    top: 20px;
-    font-size:1em;
+    top: 10px;
+    font-size:2em;
     /*flex-shrink: 1;*/
 
 }
@@ -123,7 +137,7 @@ nav li a{
 }
 
 
-.seccion-restaurantes h2 {
+.seccion-restaurantes h2{
    margin-top: 20px;
    font-size: 3em;
    font-weight: 700;
@@ -134,6 +148,8 @@ nav li a{
    margin-top: 20px;
    font-size: 1em;
    color: #7B8591;
+   font-family:'Comic Neue', cursive;
+   font-weight:400;
 }
 
 
@@ -176,15 +192,15 @@ nav li a{
     font-weight: 400;
     letter-spacing: 2px;
     margin: 20px ;
-    top: 50px;
+    top: 100px;
 
 }
 
 .seccion-restaurantes .imgReducidas{
     position: absolute;
     display: flex;
-    bottom: -120px;
-    height: 105px;
+    bottom: -110px;
+    height: 80px;
 }
 
 .seccion-restaurantes .imgReducidas img{
@@ -212,21 +228,40 @@ nav li a{
   display: inline-block;
   justify-content: center;
   align-items: center;
-  margin: 10px;
-  border: 7px solid #fff;
-  border-bottom: 60px solid #fff;
+  margin: 20px;
+  border: 1px solid #fff;
+  /*border-bottom: 108px solid #fff;*/
   border-radius: 10px;
   box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
 }
 
 .topBrunch{
+  width: 100%;
+  height: 90vh;
   text-align:center;
-  margin-top:80px;
+  margin-top:140px;
 }
 
 .topBrunch h2, .topBrunch p{
-    font-weight:500;
+    font-weight:200;
     color:black;
+}
+
+.topBrunch h2{
+   margin-top: 20px;
+   font-size: 2em;
+   font-weight: 700;
+   line-height: 1;
+   color: #303336;
+   font-family: sans-serif;
+}
+
+.topBrunch p{
+   margin-top: 20px;
+   font-size: 2em;
+   color: #303336;
+   font-family:sans-serif;
+   font-weight:400;
 }
 
 /* diseño de cada cuadro con su img y texto */
@@ -251,8 +286,8 @@ nav li a{
 
 .texto h3{
   text-align: center;
-  padding-top: 40px;
-  font-weight: 400;
+  padding-top: 10px;
+  font-weight: 200;
   color: #111;
 }
 
@@ -261,30 +296,33 @@ nav li a{
   font-size: 1em;
   font-weight: 100;
   text-decoration: none;
+
 }
 
 /* el siguiente bloque de código estiliza la sección de la newsletter */
 
 .newsletter{
-  padding: 75px 50px;
-  background: #fff;
-  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
-  max-width: 100%;
-  margin-top: 20px;
-  margin: 20px;
+  position: relative;
   justify-content: center;
-  align-items: center;
-  text-align: center;
   align-content: center;
+  align-items: center;
+  max-width: 100%;
+  height:50vh;
+  padding-top: 200px;
+  text-align: center;
+  background-color:  #ffffff;
+  box-shadow: 0 -3em 3em rgba(0,0,0,0.03);
+  
 
 }
 
 .textoNews h4{
-  color: #111;
+  color: black;
   font-size: 1.5em;
   margin-bottom: 10px;
   font-weight: 500;
 }
+
 
 
 .formulario .input{
@@ -302,7 +340,7 @@ input[type="submit"]{
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 1px;
-  max-width: 200px;
+  max-width: 400px;
   font-weight: 200;
   cursor: pointer;
 
@@ -310,22 +348,23 @@ input[type="submit"]{
 
 /* estilización del footer */
 
-footer{
-  padding: 8px 40px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  text-align: center;
-  background-color:black;
+footer .copyright{
+  background-color: black;
+  text-align:center; 
 }
 
-footer p{
-  color:white;
+.copyright p{
+  color:#fff;
 }
 
 footer a{
   color: black;
   font-weight: 300;
   text-decoration: none;
+  
 }
+
+
 
 /* RESPONSIVE */
 
@@ -573,6 +612,8 @@ section{
 .seccion-restaurantes .contenido-izquierda{
     height: 310px;
 }
+
+
 
 }
 

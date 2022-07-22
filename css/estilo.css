@@ -383,6 +383,8 @@ footer .copyright{
 
 
 
+
+
 /* Muestra este estilo cuando el ancho de la pantalla es inferior a 900px */
 
 @media (max-width:900px) {
@@ -527,29 +529,21 @@ section{
 /* los siguientes siete bloques de código estiliza la sección Top Restaurantes */
 
 .seccion-restaurantes{
-       height: auto;
-       min-height: 100vh;
        display: flex;
-       width: 97%; 
+       width: 810px; 
        justify-content: center;
        align-items: start;
        align-content: center;
-       padding-left: 10px;
-       padding-right: 10px;
-       margin: 12px;
-
+       height: auto;
+    
 }
 
-.seccion-restaurantes .contenido-izquierda img{
-       height: 40vh;
-}
-
-/*.seccion-restaurantes section{
+.seccion-restaurantes section{
        position: relative;
        width: 100%;
        height: auto;
        margin: 80px 20px;
-} */
+}
 
 .seccion-restaurantes .general{
        flex-direction: column;
@@ -557,7 +551,7 @@ section{
 
 .seccion-restaurantes .contenido-izquierda{
        width: 100%;
-       height: 100%;
+       height: 600px;
 }
 
 .seccion-restaurantes .contenido-derecha{
@@ -571,7 +565,7 @@ section{
        display: flex;
        top: 0;
        margin-top: 35px;
-       height: 110px;
+       height: 105px;
 }
 
 .seccion-restaurantes .general{
@@ -630,12 +624,13 @@ section{
 }
 
 .seccion-restaurantes{
-       width: 90%;
+       box-sizing: inherit;
+       width: 320px;
        margin: 20px;
 }
 
 .seccion-restaurantes .general{
-       padding: 25px;
+       padding: 0px;
 }
 
 .seccion-restaurantes .contenido-derecha{
@@ -645,23 +640,20 @@ section{
 }
 
 .seccion-restaurantes .imgReducidas{
-       margin-top: 20px;
+       margin-top: 10px;
 }
 
 .seccion-restaurantes .imgReducidas img{
-       width: 50px;
-       height: 50px;
+       width: 60px;
+       height: 60px;
 }
 
-
-
-.seccion-restaurantes .contenido-izquierda {
-       height: 100%;
-       
+.seccion-restaurantes .contenido-izquierda{
+       height: 510px;
 }
 
 .seccion-restaurantes .contenido-izquierda img{
-       height: 20vh;
+       height:20vh;
 }
 
 }
@@ -719,7 +711,7 @@ section{
 }
 
 .seccion-restaurantes .contenido-izquierda img{
-       height: 30vh;
+       height:30vh;
 }
 
 }

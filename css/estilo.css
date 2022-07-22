@@ -1,113 +1,116 @@
+/* regla general que afecta a todos los elementos del documento HTML, es decir se elimina todos 
+los margin y padding que viene por defecto*/
+
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-html,body {
-  scroll-behavior: smooth;
-}
+/* regla que afecta al body de la página web*/
 
 body{
-  font-family: sans-serif;
-  color: #303336;
+    font-family: sans-serif;
+    color: #303336;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
-/* aqui empezamos a estilizar el header que contiene el menu de navegación de la web */
+/* en los siguientes bloques de código está estilizado el header que contiene el menu de navegación
+de la web */
 
 .abrir, .cerrar{
-  -webkit-appearance: none;
-  appearance: none;
-  display: none;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 header{
-  box-sizing:border-box;
-  position:fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 100px;
-  z-index: 999;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  transition: 0.5s;
-  background-color: black;
+    box-sizing:border-box;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background-color: black;
 }
 
 
 
 header .logo{
-  font-family: 'Corinthia', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 2em;
-  line-height: 0.7em;
-  text-align: center;
-  text-transform: lowercase;
-  color: white;
-  margin-left: -50px;
-  text-decoration: none;
+    font-family: 'Corinthia', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 0.7em;
+    text-align: center;
+    text-transform: lowercase;
+    color: white;
+    margin-left: -50px;
+    text-decoration: none;
 }
 
 nav ul{
-  list-style:none;
-  display:flex;
+    list-style:none;
+    display:flex;
 }
 
 header nav li{
-  list-style: none;
-  margin-left: 25px;
+    list-style: none;
+    margin-left: 25px;
 }
 
 nav li a{
-  text-decoration: none;
-  color: #fff;
-  font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
 }
 
 
 /*los siguientes 3 bloques de código estiliza la sección home */
 
 .imgFondo{
-  position: relative;
-  background-image: url(../img/imgFondo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  box-sizing: border-box;
-  background-size: cover;
+    position: relative;
+    background-image: url(../img/imgFondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+    background-size: cover;
 }
 
 .imgFondo  h1{
-  margin-top: 100px;
-  text-align: center;
-  font-size: 5em;
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 5em;
+    color: #fff;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 300;
 }
 
 .imgFondo  p{
-  font-size: 2em;
-  font-weight: 300;
-  color: #ffff;
-  margin-top: 100px;
-  text-align: center;
-  margin: 120px;
+    font-size: 2em;
+    font-weight: 300;
+    color: #ffff;
+    margin-top: 100px;
+    text-align: center;
+    margin: 120px;
+    margin-top: 20px;
 }
 
 /*sección estilizamos la descripción de los top restaurantes*/
-
-
 
 .textosRestaurante h2, .textosRestaurante p{
     position:relative;
@@ -237,14 +240,16 @@ nav li a{
 
 .topBrunch{
   width: 100%;
-  height: 90vh;
   text-align:center;
-  margin-top:140px;
+  margin-top:100px;
+  padding-top:100px;
+
 }
 
 .topBrunch h2, .topBrunch p{
     font-weight:200;
     color:black;
+    padding: 10px;
 }
 
 .topBrunch h2{
@@ -296,247 +301,252 @@ nav li a{
   font-size: 1em;
   font-weight: 100;
   text-decoration: none;
-
 }
 
 /* el siguiente bloque de código estiliza la sección de la newsletter */
 
 .newsletter{
-  position: relative;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  max-width: 100%;
-  height:50vh;
-  padding-top: 200px;
-  text-align: center;
-  background-color:  #ffffff;
-  box-shadow: 0 -3em 3em rgba(0,0,0,0.03);
-  
-
+     position: relative;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+     max-width: 100%;
+     padding-top: 100px;
+     text-align: center;
+     background-color:  #ffffff;
+     box-shadow: 0 -3em 3em rgba(0,0,0,0.03);
 }
 
-.textoNews h4{
-  color: black;
-  font-size: 1.5em;
-  margin-bottom: 10px;
-  font-weight: 500;
+h4{
+     font-family: 'Abril Fatface', cursive;
+     color: black;
+     font-size: 2em;
+     margin-bottom: 10px;
+     font-weight: 200;
 }
 
 
-
-.formulario .input{
-  width: 100%;
-  padding: 10px;
-  color: #111;
-  font-size:1em;
-  font-weight: 300;
+.formulario .inputForm{
+      width: 100%;
+      padding: 10px;
+      color: #111;
+      font-size:1em;
  
 }
 
 input[type="submit"]{
-  font-size: 1em;
-  color: grey;
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  max-width: 400px;
-  font-weight: 200;
-  cursor: pointer;
+      font-size: 1.5em;
+      color: grey;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      max-width: 200px;
+      font-weight: 200;
+      cursor: pointer;
 
 }
 
 /* estilización del footer */
 
 footer .copyright{
-  background-color: black;
-  text-align:center; 
+      background-color: black;
+      text-align:center; 
 }
 
 .copyright p{
-  color:#fff;
+      color:#fff;
 }
-
-footer a{
-  color: black;
-  font-weight: 300;
-  text-decoration: none;
-  
-}
-
 
 
 /* RESPONSIVE */
 
+
+
 /* Muestra este estilo cuando el ancho de la pantalla es inferior a 900px */
-@media (max-width:900px){
+
+@media (max-width:900px) {
+
+/* los siguientes bloques de código estiliza la cabecera de la página web */
 
 header .logo{
-   margin-left: 0px;
-   font-size: 2em;
+      margin-left: 0px;
+      font-size: 2em;
 }
 
 header{
-    padding: 10px 20px;
+      padding: 10px 20px;
 }
 
 .abrir{
-    display: block;
-    width: 60px;
+      display: block;
+      width: 60px;
 }
 
  
 .abrir span{
-    display: block;
-    border-top: 3px solid white;
+      display: block;
+      border-top: 3px solid white;
 
 }
 
 .abrir span:not(:first-child){
-    margin-top: 3px;
+      margin-top: 3px;
 }
 
 .cerrar{
-    display: block;
-    color: white;
-    font-family: sans-serif;
-    font-weight: 200;
-    font-size: 2em;
-    position: absolute; 
-    top: 20px;
-    right: 20px;
+      display: block;
+      color: white;
+      font-family: sans-serif;
+      font-weight: 200;
+      font-size: 2em;
+      position: absolute; 
+      top: 20px;
+      right: 20px;
 }
 
 nav{ 
-    position: fixed;
-    top: -100vh;
-    left: 0;
-    margin-top: 0;
-    padding: 20px;
-    background-color: black;
-    width: calc(100% - 40px);
-    height: calc(100vh - 40px);
-    transition: top 0.7s;
+      position: fixed;
+      top: -100vh;
+      left: 0;
+      margin-top: 0;
+      padding: 20px;
+      background-color: black;
+      width: calc(100% - 40px);
+      height: calc(100vh - 40px);
+      transition: top 0.7s;
 }
 
 .desplegado{
-    top: 0;
+      top: 0;
 }
 
 nav ul{
-    display: block; 
+      display: block; 
 }
 
 nav li:not(:last-child)::after{
-    display: none;
+      display: none;
 }
 
 nav li{
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 2.5em;
-    position: static;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 2.5em;
+      position: static;
 }
 
 nav li:not(:first-child){
-    margin-top: 20px;
+       margin-top: 20px;
 }
 
 nav a{
-    color: white;
+       color: white;
 }
 
 section{
-    padding: 20px;
+       padding: 20px;
 }
 
+/* los siguientes tres bloques de código estiliza la Home */
+
 .imgFondo .cuadro h1{
-    font-size: 4em;
-    color: white;
+       font-size: 4em;
+       color: white;
 }
 
 .imgFondo p{
-    font-size: 2.5em;
-    color: white;
+       font-size: 2.5em;
+       color: white;
 }
+
+/* los siguientes tres bloques de código estiliza la sección Top Brunch */
 
 .topBrunch{
-    margin-top: 100px;
+       margin-top: 50px;
 }
 
 .topBrunch .cuadro{
-    margin-top: 20px;
+       margin-top: 20px;
 }
 
 .topBrunch .cuadro{
-    margin: 10px;
+       margin: 10px;
 }
 
 .texto{
-    text-align: center;
+       text-align: center;
 }
 
-.titulos{
-    font-size: 1.8em;
-    line-height: 1.5em;
-    margin-bottom: 15px;
-    font-weight: 300;
+.textosRestaurante h2{
+       font-size: 1.8em;
+       line-height: 1.5em;
+       margin-bottom: 15px;
+       font-weight: 300;
+}
+
+.textosBrunch h2{
+       font-size: 1.8em;
+       line-height: 1.5em;
+       margin-bottom: 15px;
+       font-weight: 300;
 }
 
 .cuadro{
 
-    width: 30%;
-    margin: 10px;
-    padding: 10px;
+       width: 30%;
+       margin: 10px;
+       padding: 10px;
 }
 
 .imgcuadro{
-    height: 20vh;
+       height: 20vh;
 }
 
+/* los siguientes siete bloques de código estiliza la sección Top Restaurantes */
+
 .seccion-restaurantes{
-    display: flex;
-    width: 810px; 
-    justify-content: center;
-    align-items: start;
-    align-content: center;
-    height: auto;
+       display: flex;
+       width: 810px; 
+       justify-content: center;
+       align-items: start;
+       align-content: center;
+       height: auto;
     
 }
 
 .seccion-restaurantes section{
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin: 80px 20px;
+       position: relative;
+       width: 100%;
+       height: auto;
+       margin: 80px 20px;
 }
 
 .seccion-restaurantes .general{
-    flex-direction: column;
+       flex-direction: column;
 }
 
 .seccion-restaurantes .contenido-izquierda{
-    width: 100%;
-    height: 600px;
+       width: 100%;
+       height: 600px;
 }
 
 .seccion-restaurantes .contenido-derecha{
-    width: 100%;
-    height: auto;
-    padding: 175px 0 0;
+       width: 100%;
+       height: auto;
+       padding: 175px 0 0;
 }
 
 .seccion-restaurantes .imgReducidas{
-    position: absolute;
-    display: flex;
-    top: 0;
-    margin-top: 35px;
-    height: 105px;
+       position: absolute;
+       display: flex;
+       top: 0;
+       margin-top: 35px;
+       height: 105px;
 }
 
 .seccion-restaurantes .general{
-    width: 85%;
+       width: 85%;
 }
 
 }
@@ -545,75 +555,136 @@ section{
 
 @media (max-width: 400px) {
 
-
+/* los siguientes dos bloques de código estiliza la Home */
 
 .imgFondo  h1{
-  margin-top: 40px;
-  text-align: center;
-  font-size: 2em;
-  color: #fff;
+       margin-top: 40px;
+       text-align: center;
+       font-size: 2em;
+       color: #fff;
 }
 
 .imgFondo  p{
-  font-size: 1em;
-  font-weight: 200;
-  color: #ffff;
-  margin-top: 100px;
-  text-align: center;
-  margin: 50px;
+       font-size: 1em;
+       font-weight: 200;
+       color: #ffff;
+       margin-top: 100px;
+       text-align: center;
+       margin: 50px;
 }
 
+/* los siguientes tres bloques de código estiliza la sección Top Brunch */
+
 .cuadro{
-    width: 80%;
+       width: 80%;
 }
 
 .imgcuadro{
-    height: 30vh;
+       height: 30vh;
 }
 
 .topBrunch{
-    margin-top:20px;
+       margin-top:20px;
+       padding:0px;
 
 }
 
-.titulos h2{
-    font-size:1.5em;
+/* los siguientes tres bloques de código estiliza la sección Top Restaurantes */
+
+.textosRestaurante h2{
+       font-size:1.5em;
 }
 
-.titulos h3{
-    font-size:0.8em;
-    font-weight:100;
+.textosRestaurante p{
+       font-size:0.8em;
+       font-weight:100;
 }
 
 .seccion-restaurantes{
-    width: 310px;
-    margin: 120px 20px;
+       width: 310px;
+       margin: 120px 20px;
 }
 
 .seccion-restaurantes .general{
-    padding: 0px;
+       padding: 0px;
 }
 
 .seccion-restaurantes .contenido-derecha{
-    width: 100%;
-    height: auto;
-    padding: 115px 0 0;
+       width: 100%;
+       height: auto;
+       padding: 115px 0 0;
 }
 
 .seccion-restaurantes .imgReducidas{
-    margin-top: 20px;
+       margin-top: 20px;
 }
 
 .seccion-restaurantes .imgReducidas img{
-    width: 60px;
-    height: 60px;
+       width: 60px;
+       height: 60px;
 }
 
 .seccion-restaurantes .contenido-izquierda{
-    height: 310px;
+       height: 310px;
 }
 
+}
 
+/* Muestra este estilo cuando el ancho de la pantalla es inferior a 320px */
+
+@media (max-width: 320px) {
+
+/* en los siguientes bloques de código está estilizado el contenido de la Home */
+
+.imgFondo{
+       height: 60vh;
+}
+
+.cuadro{
+       width: 70%;
+}
+
+.imgcuadro{
+       height: 20vh;
+}
+
+/* en los siguientes bloques de código está estilizado el contenido de la sección de Top Restaurantes */
+
+.textosRestaurante h2{
+       font-size: 1.5em;
+       font-weight: 500;
+}
+
+.textosRestaurante p{
+       font-size: 0.8em;
+       font-weight: 400;
+}
+
+.textosRestaurante{
+       position: relative;
+       top: -100px;
+}
+
+.seccion-restaurantes {
+       width: 270px;
+       margin: 0px;
+       display: block;
+       position: static;
+       padding: 25px 25px;
+}
+
+.seccion-restaurantes .general{
+       padding: 20px;
+}
+
+.seccion-restaurantes .imgReducidas img{
+       width: 70px;
+       height: 70px;
+}
+
+.seccion-restaurantes .contenido-izquierda img{
+       height:30vh;
+}
 
 }
 

@@ -107,9 +107,10 @@ nav li a{
     font-size: 2em;
     font-weight: 200;
     color: #ffff;
-    margin-top: 100px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 20px;
+    margin: 60px;
+
 }
 
 /* sección de los top restaurantes*/
@@ -558,10 +559,10 @@ section{
 }
 
 .imgFondo  p{
-       font-size: 1em;
+       font-size: 1.5em;
        font-weight: 200;
        margin-top: 100px;
-       margin: 2px;
+       margin: 40px;
 }
 
 /* sección Top Brunch*/
@@ -666,18 +667,18 @@ input[type="submit"]{
 /* sección  Home */ 
 
 .imgFondo{
-        height: auto;
+        height: 80vh;
 }
 
 .imgFondo  h1{
-        margin-top: 100px;
+        margin-top: 80px;
         font-weight: 200;
         font-size: 2em;
 }
 
 .imgFondo  p{
         margin-top: 100px;
-        margin: 0px;
+        margin: 20px;
         font-size: 1em;
         font-weight: 200;
         color: #ffff;

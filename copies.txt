@@ -1,0 +1,74 @@
+
+Textos Home
+COSAS RICAS PARA TU BARRIGA
+Comer, ¡nos gusta mucho! ¿Y a quién no le gusta?
+Estáis a punto de descubrir los mejores sitios de Madrid
+para disfrutar de una buena comida para tu barriga.
+
+
+
+Textos Top Restaurantes
+Naked & Sated es uno de los mejores restaurantes healthy de Madrid donde puedes comer sin remordimientos. Por eso apuestan por platos elaborados con productos frescos, sostenibles, de proximidad y sin aditivos. En su carta, no vas encontrar ni productos ultra procesados, nada de harinas o azúcares refinados, con el objetivo de ofrecer comidas saludables.
+La carta de Naked & Sated es súper amplia y está dividida en 10 apartados, que van desde galettes, a tostas pasando por bowls, pizzas, burgers o ensaladas, cada uno de ellos con numerosas opciones. El responsable de la cocina es el chef Roberto Bosquet y algunos de los platos que ya se han convertido en las estrellas de la carta son la ensalada de tataki, con atún a la plancha, quinoa, aguacate, garbanzos cocidos, tomate y pimiento de piquillo, o los huevos rotos saludables, que se hacen con huevos ecológicos a la plancha con las patatas y boniato al horno, y jamón ibérico.
+Dirección: Calle de Serrano, 110, 28006 Madrid
+Cocina: Mediterránea
+Precio medio: 30€
+
+
+
+Tandoori Station es uno  de los mejores restaurantes con gastronomía hindú de la capital. 
+El tren de la India en Tandoori Station, sí, lo has leido bien, su decoración industrial inspirada en la estética de las estaciones de metro es solo el principio de la experiencia. En cuanto a los platos, no  hay que irse sin probar el  Murghi ka Tikka Massala, pollo con salsa cremosa de suaves especias y hierbas aromáticas, el Tikka Massala es un clásico que probamos en todos los restaurantes indios que conocemos, el Gosht ka Roghan Josh, un curry de cordero con salsa de especias, tomate y hierbas, ligeramente picante; el Paneer Naan que es el pan de queso, que está riquisimo y por último el pollo rojo, muy top que de va dejar con un buen sabor de boca. El menú degustación de Tandoori Station es perfecto para conocer este tipo de comida. Es un restaurante bastante grande y cuenta con una terraza.
+Dirección: Calle de José Ortega y Gasset, 89-91, 28006 Madrid
+Cocina: India
+Precio medio: 35€
+
+
+Salino, situato al lado del Retiro, es uno de los restaurantes que tiene los mejores torreznos de la capital. Podrás disfrutar de los platos tanto en la barra como en mesa o terraza.
+En cuanto a la carta, es muy amplia, las croquetas de centolla son impresionantes, y los torreznos muy recomendables. También hay que probar lo propuesto fuera de carta, suelen tener arroces con diferentes verduras de temporadas muy ricas. Un sitio tranquilo y muy bien atendido al que querrás volver sin duda.
+Dirección: Calle de Menorca, 4, 28009 Madrid
+Cocina: Mediterránea
+Precio medio: 40€
+
+
+La Trattoria d'Alfredo es sin duda el mejor restaurante de gastronomía italiana con influiencia siciliana de la capital. El local es muy pequeño, con una decoración muy familiar. Alfredo es sin duda uno de los cocineros que mejor representa la cocina tradicional italiana en Madrid. 
+El suele recomendarte estupendamente lo que tiene fresco del día. Muy recomendables como entrantes las  alcachofas fritas con un queso de oveja y un carpaccio de mero con salicornia, y como principales, los espagueti a la carbonara, la pasta con ragú, la pasta con pesto de pistachos y langostinos que son una delicia. No hay que irse sin probar los postres que son brutales, el tiramisú y la empanada de limón tipico postre siciliano.
+Dirección: Calle de de El Españoleto, 4, 28010 Madrid
+Cocina: Italiana-Siciliana
+Precio medio: 40€
+
+
+Logo
+
+Tipografía: 'Corinthia', peso: 300
+Color:#fff
+
+Menú de navegación
+Tipografía:  'Abril Fatface', peso: 300
+Color: #000000
+
+
+Home
+
+Título principal:
+
+Tipografía:  'Abril Fatface', peso: 300
+Color:#ffff
+
+
+Top Restaurantes y  Top Brunch
+
+Subitulos
+
+Tipografía:  'Comic Neue', peso: 700
+Color:#FAFAFA
+
+Párrafos
+Tipografía:  'Comic Neue', peso: 200
+Color:#7B8591
+
+Newsletter:
+
+Tipografía:  'Abril Fatface', peso: 300
+Color:#ffff
+
+

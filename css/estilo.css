@@ -17,6 +17,8 @@ los margin y padding que viene por defecto*/
 body{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    font-family: 'Abril Fatface', cursive;
+
 }
 
 /* en los siguientes bloques de código está estilizado el header que contiene el menu de navegación
@@ -54,7 +56,7 @@ header{
     line-height: 0.7em;
     text-align: center;
     text-transform: capitalize;
-    color: white;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -78,6 +80,7 @@ nav li a{
 /*los siguientes 3 bloques de código estiliza la sección home */
 
 .imgFondo{
+    font-family: 'Abril Fatface', cursive;
     position: relative;
     background-image: url(../img/imgFondo.jpg);
     background-repeat: no-repeat;
@@ -96,22 +99,21 @@ nav li a{
     margin-top: 20px;
     text-align: center;
     font-size: 5em;
-    color: #fff;
-    font-family: 'Abril Fatface', cursive;
+    color: #ffff;
     font-weight: 300;
 }
 
 .imgFondo  p{
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 200;
     color: #ffff;
     margin-top: 100px;
     text-align: center;
-    margin: 120px;
+    margin: 10px;
     margin-top: 20px;
 }
 
-/* en los siguientes bloques de código están estilizados la sección de los top restaurantes*/
+/* sección de los top restaurantes*/
 
 .seccion-restaurantes {
     width:100%;
@@ -126,7 +128,7 @@ nav li a{
     font-style: normal;
     font-size: 1em;
     line-height: 1.3;
-    background-color: red; /*#FAFAFA*/
+    background-color: #FAFAFA; 
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
     top: 100px;
     margin-top: 15px;
@@ -155,6 +157,7 @@ nav li a{
     text-align: center;
     top: 100px;
     font-size:2em;
+    font-family:'Comic Neue', cursive;
 }
 
 .seccion-restaurantes .general {
@@ -232,6 +235,7 @@ nav li a{
 }
 
 .topBrunch{
+    font-family:'Comic Neue', cursive;
     width: 100%;
     text-align:center;
     margin-top:100px;
@@ -313,7 +317,7 @@ nav li a{
 .textoNews  h4{
 
      font-family: 'Abril Fatface', cursive;
-     color: black;
+     color: #000000;
      font-size: 2em;
      font-weight: 300;
      margin-bottom: 20px;
@@ -354,7 +358,7 @@ input[type="submit"]{
       align-items: center;
       text-align: center;
       height:50px;
-      background-color: black;
+      background-color: #000000;
 }
 
 .copyright p{
@@ -388,7 +392,7 @@ header{
 
 .abrir span{
       display: block;
-      border-top: 3px solid white;
+      border-top: 3px solid #ffff;
 }
 
 .abrir span:not(:first-child){
@@ -397,8 +401,8 @@ header{
 
 .cerrar{
       display: block;
-      color: white;
-      font-family: sans-serif;
+      color: #ffff;
+      font-family: 'Abril Fatface', cursive;
       font-weight: 200;
       font-size: 2em;
       position: absolute; 
@@ -412,7 +416,7 @@ nav{
       left: 0;
       margin-top: 0;
       padding: 20px;
-      background-color: black;
+      background-color: #000000;
       width: calc(100% - 40px);
       height: calc(100vh - 40px);
       transition: top 0.7s;
@@ -432,8 +436,8 @@ nav li:not(:last-child)::after{
 
 nav li{
       padding: 0;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 400;
+      font-family: 'Abril Fatface', cursive;
+      font-weight: 300;
       font-size: 2.5em;
       position: static;
 }

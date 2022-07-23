@@ -109,8 +109,7 @@ nav li a{
     color: #ffff;
     margin-top: 100px;
     text-align: center;
-    margin: 10px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 /* sección de los top restaurantes*/
@@ -363,6 +362,7 @@ input[type="submit"]{
 
 .copyright p{
       color: #fff;
+
 }
 
 
@@ -383,6 +383,7 @@ header .logo{
 
 header{
       padding: 10px 20px;
+
 }
 
 .abrir{
@@ -417,8 +418,8 @@ nav{
       margin-top: 0;
       padding: 20px;
       background-color: #000000;
-      width: calc(100% - 40px);
-      height: calc(100vh - 40px);
+      width: 100%; /*antes calc(100% - 40px)*/
+      height: 100vh;
       transition: top 0.7s;
 }
 
@@ -469,7 +470,7 @@ section{
        color: #ffff;
        margin-top: 100px;
        text-align: center;
-       margin: 80px;
+       margin: 0px;
 }
 
 /* sección  Top Brunch */ 
@@ -499,13 +500,13 @@ section{
 
 .cuadro{
 
-       width: 30%;
+       width: 40%;
        margin: 10px;
        padding: 10px;
 }
 
 .imgcuadro{
-       height: 20vh;
+       height: 30vh;
 }
 
 /* sección  Top Restaurantes */ 
@@ -551,7 +552,7 @@ section{
 /* sección Home */
 
 .imgFondo  h1{
-       margin-top: 40px;
+       margin-top: 20px;
        font-size: 2em;
        
 }
@@ -560,7 +561,7 @@ section{
        font-size: 1em;
        font-weight: 200;
        margin-top: 100px;
-       margin: 50px;
+       margin: 2px;
 }
 
 /* sección Top Brunch*/
@@ -651,6 +652,11 @@ input[type="submit"]{
         font-size: 0.9em;
 }
 
+.copyright p{
+      color: #fff;
+      font-size: 0.7em;
+}
+
 }
 
 /* Muestra este estilo cuando el ancho de la pantalla es inferior a 320px */
@@ -671,7 +677,7 @@ input[type="submit"]{
 
 .imgFondo  p{
         margin-top: 100px;
-        margin: 40px;
+        margin: 0px;
         font-size: 1em;
         font-weight: 200;
         color: #ffff;

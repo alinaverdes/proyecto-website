@@ -1,3 +1,8 @@
+
+
+/* el siguiente código permite gestionar el menú de navegación de la página web, cuando la web se visita desde 
+un dispositivo móvil*/
+
 const navegacion = document.querySelector("nav");
 const botones = document.querySelectorAll(".abrir,.cerrar");
 
@@ -7,7 +12,8 @@ botones.forEach(function(boton){
   });
 });
 
-
+/* este código es el que permite ver las imagenes reducidas en formato ampliado, cada vez que
+seleccionas una imagen en miniatura, está se expande */
 
 var imgGrande = document.querySelectorAll(".imgGrande");
         var imgReducida = document.querySelectorAll(".imgReducida");

@@ -5,12 +5,20 @@ un dispositivo móvil*/
 
 const navegacion = document.querySelector("nav");
 const botones = document.querySelectorAll(".abrir,.cerrar");
+const menuToggle = document.querySelector(".menuToggle");
+  const navigation = document.querySelector(".navigation");
 
 botones.forEach(function(boton){
   boton.addEventListener("click", function(){
     navegacion.classList.toggle("desplegado");
   });
 });
+
+function toggleMenu() {
+  
+  menuToggle.classList.toggle('active')
+  navigation.classList.toggle('active')
+}
 
 /* este código es el que permite ver las imagenes reducidas en formato ampliado, cada vez que
 seleccionas una imagen en miniatura, está se expande */

@@ -22,13 +22,13 @@
        <span></span>
      </button>
 
-    <nav>
+    <nav class="menuToggle" onclick="toggleMenu();">
     <button class="cerrar">x</button>
-    <ul>
-      <li><a href="#imgFondo">Home</a></li>
-      <li><a href="#restaurantes">Top Restaurantes</a></li>
-      <li><a href="#topBrunch">Top Brunch</a></li>
-      <li><a href="#newsletter">Newsletter</a></li>
+    <ul class="navigation">
+      <li><a href="#imgFondo" onclick="toggleMenu();">Home</a></li>
+      <li><a href="#restaurantes" onclick="toggleMenu();">Top Restaurantes</a></li>
+      <li><a href="#topBrunch" onclick="toggleMenu();">Top Brunch</a></li>
+      <li><a href="#newsletter" onclick="toggleMenu();">Newsletter</a></li>
     </ul>
     </nav>
   </header>
@@ -154,7 +154,7 @@
         <h2>Top Brunch</h2>
         <p>¡Los mejores sitios para hacer  Brunch en la capital!</p>
       </div>
-      
+      <div class="content">
       <div class="cuadro">
         <div class="imgcuadro">
           <img src="img/topBrunch-religion.jpg">
@@ -233,6 +233,7 @@
           <h3>La Rollerie</h3>
           <a href="https://larollerie.com/">c/ de Atocha, 20</a>
         </div>
+      </div>
       </div>
   </section>
 

@@ -221,11 +221,11 @@ nav li a{
 }
 
 
-/* en los siguientes bloques de código está estilizado la sección top Brunch */
+/* en los siguientes bloques de código está estilizado la sección top Brunch 
 
 .cuadro{
     width: 20%;
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px;
@@ -237,9 +237,11 @@ nav li a{
 .topBrunch{
     font-family:'Comic Neue', cursive;
     width: 100%;
+    display: ;
     text-align:center;
     margin-top:100px;
     padding-top:100px;
+
 }
 
 .textosBrunch h2, .textosBrunch p{
@@ -289,7 +291,65 @@ nav li a{
     font-weight: 100;
     text-decoration: none;
 }
+*/
 
+.textosBrunch{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+.textosBrunch h2, .textosBrunch p{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:2em;
+}
+
+.topBrunch .content {
+    font-family:'Comic Neue', cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.topBrunch .content .cuadro  {
+    width: 340px;
+    margin: 20px;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.08);
+}
+
+.topBrunch .content .cuadro .imgcuadro {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.topBrunch .content .cuadro .imgcuadro img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.topBrunch .content .cuadro .texto {
+    padding: 15px 0 5px;
+}
+
+.topBrunch .content .cuadro .texto h3 {
+    font-weight: 400;
+    color: #111;
+}
 /* los siguientes  bloques de código estiliza la sección de la newsletter */
 
 .newsletter{
@@ -476,11 +536,12 @@ section{
 
 /* sección  Top Brunch */ 
 
-.topBrunch{
-       margin-top: 50px;
+.topBrunch .content{
+       margin-top: 20px;
+
 }
 
-.topBrunch .cuadro{
+.topBrunch .content .cuadro{
        margin-top: 20px;
 }
 
@@ -583,10 +644,11 @@ section{
 
 .cuadro{
         width: 80%;
+        
 }
 
 .imgcuadro{
-        height: 30vh;
+        height: 10vh;
 }
 
 /* sección  Top Restaurantes */ 

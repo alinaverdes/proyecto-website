@@ -326,7 +326,7 @@ nav li a{
     text-decoration: none;
 }
 
-.topBrunch .content .cuadro  {
+.topBrunch .content .cuadro {
     width: 340px;
     margin: 20px;
     border: 15px solid #fff;
@@ -359,22 +359,32 @@ nav li a{
 }
 /* los siguientes  bloques de código estiliza la sección de la newsletter */
 
-.newsletter{
+.newsletter {
      position: relative;
      display: flex;
-     justify-content: center;
-     align-content: center;
-     align-items: center;
-     max-width: 100%;
-     height: 400px;
+     justify-content: start;
+     align-content: start;
+     align-items: start;
+     width: 100%;
+     height: 100vh;
      text-align: center;
-     background-color:  #ffffff;
-     box-shadow: 0 -3em 3em rgba(0,0,0,0.07);
-}
+     background-image: url(../img/fondo1.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     box-sizing: border-box;
+     
+}     
 
 .formulario{
      position: absolute;
-     top: 200px;
+     top: 450px;
+     align-items: start;
+     align-content: start;
+     text-align: start;
+     display: block;
+     margin-left: 150px;
+     
 }
 
 .newsletter .formulario{
@@ -382,16 +392,20 @@ nav li a{
 }
 
 .textoNews  h4{
-
-     font-family: 'Abril Fatface', cursive;
-     color: #000000;
+     font-family: 'Comic Neue', cursive;
+     color: #111;
      font-size: 2em;
-     font-weight: 300;
+     font-weight: 400;
      margin-bottom: 20px;
 }
 
 .textoNews p{
       margin-bottom: 200px;
+}
+
+.textoNews {
+    margin-top: 350px;
+    margin-left: 180px;
 }
 
 .inputForm input{
@@ -403,18 +417,20 @@ nav li a{
       font-size: 16px;
       font-weight: 300;
       resize: none;
+      border-radius: 3px;
+      width: 320px;
 }
 
 input[type="submit"]{
       display: inline-block;
       border-radius: 5px;
       text-decoration: none;
-      background-color: red;
+      background-color: rgb(52, 51, 51);
       font-size: 1em;
       color: white;
       text-transform: uppercase;
       letter-spacing: 1px;
-      width: 140px;
+      width: 320px;
       font-weight: 200;
       cursor: pointer;
 }

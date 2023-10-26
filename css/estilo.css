@@ -9,6 +9,7 @@ los margin y padding que viene por defecto*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 
 }
 
@@ -17,7 +18,7 @@ los margin y padding que viene por defecto*/
 body{
     scroll-behavior: smooth;
     overflow-x: hidden;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'comic neue', cursive;
 
 }
 
@@ -81,6 +82,7 @@ nav li a{
 
 .imgFondo{
     font-family: 'Abril Fatface', cursive;
+    font-weight: 100;
     position: relative;
     background-image: url(../img/imgFondo.jpg);
     background-repeat: no-repeat;
@@ -300,6 +302,7 @@ nav li a{
     align-items: center;
     flex-direction: column;
     padding-top: 120px;
+    text-decoration: none;
 }
 
 .textosBrunch h2, .textosBrunch p{
@@ -309,6 +312,8 @@ nav li a{
     align-items: center;
     text-align: center;
     font-size:2em;
+    text-decoration: none;
+    
 }
 
 .topBrunch .content {
@@ -318,6 +323,7 @@ nav li a{
     flex-direction: row-reverse;
     flex-wrap: wrap;
     margin-top: 40px;
+    text-decoration: none;
 }
 
 .topBrunch .content .cuadro  {
@@ -346,9 +352,10 @@ nav li a{
     padding: 15px 0 5px;
 }
 
-.topBrunch .content .cuadro .texto h3 {
+.topBrunch .content .cuadro .texto h3,a {
     font-weight: 400;
     color: #111;
+    
 }
 /* los siguientes  bloques de código estiliza la sección de la newsletter */
 
